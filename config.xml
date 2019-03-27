@@ -84,20 +84,6 @@
 <icon density="xxhdpi" src="package-assets/icon/android/xxhdpi.png"/>
 <icon density="xxxhdpi" src="package-assets/icon/android/xxxhdpi.png"/>
 
-<splash density="port-ldpi" src="package-assets/screen/android/splash-port-ldpi.png"/>
-<splash density="port-mdpi" src="package-assets/screen/android/splash-port-mdpi.png"/>
-<splash density="port-hdpi" src="package-assets/screen/android/splash-port-hdpi.png"/>
-<splash density="port-xhdpi" src="package-assets/screen/android/splash-port-xhdpi.png"/>
-<splash density="port-xxhdpi" src="package-assets/screen/android/splash-port-xxhdpi.png"/>
-<splash density="port-xxxhdpi" src="package-assets/screen/android/splash-port-xxxhdpi.png"/>
-
-<splash density="land-ldpi" src="package-assets/screen/android/splash-land-ldpi.png"/>
-<splash density="land-mdpi" src="package-assets/screen/android/splash-land-mdpi.png"/>
-<splash density="land-hdpi" src="package-assets/screen/android/splash-land-hdpi.png"/>
-<splash density="land-xhdpi" src="package-assets/screen/android/splash-land-xhdpi.png"/>
-<splash density="land-xxhdpi" src="package-assets/screen/android/splash-land-xxhdpi.png"/>
-<splash density="land-xxxhdpi" src="package-assets/screen/android/splash-land-xxxhdpi.png"/>
-
         <resource-file src="package-assets/icon-notification.png" target="res/drawable/icon-notification.png" />
         <resource-file src="package-assets/icon-notification.png" target="res/drawable-hdpi/icon-notification.png" />
         <resource-file src="package-assets/icon-notification.png" target="res/drawable-ldpi/icon-notification.png" />
@@ -117,6 +103,15 @@
         <resource-file src="package-assets/icon-notification.png" target="app/src/main/res/drawable-xhdpi/icon-notification.png" />
         <resource-file src="package-assets/icon-notification.png" target="app/src/main/res/drawable-xxhdpi/icon-notification.png" />
         <resource-file src="package-assets/icon-notification.png" target="app/src/main/res/drawable-xxxhdpi/icon-notification.png" />
+
+<splash platform="android" src="package-assets/screen/android/splash-android-320-426.png" density="ldpi" width="320" height="426" orientation="portrait"/>
+<splash platform="android" src="package-assets/screen/android/splash-android-320-470.png" density="mdpi" width="320" height="470" orientation="portrait"/>
+<splash platform="android" src="package-assets/screen/android/splash-android-480-640.png" density="hdpi" width="480" height="640" orientation="portrait"/>
+<splash platform="android" src="package-assets/screen/android/splash-android-720-960.png" density="xhdpi" width="720" height="960" orientation="portrait"/>
+<splash platform="android" src="package-assets/screen/android/splash-android-960-720.png" density="xhdpi" width="960" height="720" orientation="landscape"/>
+<splash platform="android" src="package-assets/screen/android/splash-android-640-480.png" density="hdpi" width="640" height="480" orientation="landscape"/>
+<splash platform="android" src="package-assets/screen/android/splash-android-470-320.png" density="mdpi" width="470" height="320" orientation="landscape"/>
+<splash platform="android" src="package-assets/screen/android/splash-android-426-320.png" density="ldpi" width="426" height="320" orientation="landscape"/>
 
 </platform>
 
@@ -147,11 +142,19 @@
 <icon src="package-assets/icon/ios/icon-167.png" width="167" height="167"/>
 <icon src="package-assets/icon/ios/icon-83.5@2x.png" width="167" height="167"/>
 
-<splash src="package-assets/screen/ios/Default@2x~iphone~comcom.png"/>
-<splash src="package-assets/screen/ios/Default@3x~iphone~anycom.png"/>
-
-<splash src="package-assets/screen/ios/Default-Landscape~ipad.png" width="1024" height="768"/>
-<splash src="package-assets/screen/ios/Default-Landscape@2x~ipad.png" width="2048" height="1536"/>
+<splash platform="ios" src="package-assets/screen/ios/splash-ios-320-480.png" width="320" height="480" orientation="portrait"/>
+<splash platform="ios" src="package-assets/screen/ios/splash-ios-640-960.png" width="640" height="960" orientation="portrait"/>
+<splash platform="ios" src="package-assets/screen/ios/splash-ios-640-1136.png" width="640" height="1136" orientation="portrait"/>
+<splash platform="ios" src="package-assets/screen/ios/splash-ios-750-1334.png" width="750" height="1334" orientation="portrait"/>
+<splash platform="ios" src="package-assets/screen/ios/splash-ios-768-1024.png" width="768" height="1024" orientation="portrait"/>
+<splash platform="ios" src="package-assets/screen/ios/splash-ios-1242-2208.png" width="1242" height="2208" orientation="portrait"/>
+<splash platform="ios" src="package-assets/screen/ios/splash-ios-1536-2048.png" width="1536" height="2048" orientation="portrait"/>
+<splash platform="ios" src="package-assets/screen/ios/splash-ios-2048-2732.png" width="2048" height="2732" orientation="portrait"/>
+<splash platform="ios" src="package-assets/screen/ios/splash-ios-1024-768.png" width="1024" height="768" orientation="landscape"/>
+<splash platform="ios" src="package-assets/screen/ios/splash-ios-1334-750.png" width="1334" height="750" orientation="landscape"/>
+<splash platform="ios" src="package-assets/screen/ios/splash-ios-2048-1536.png" width="2048" height="1536" orientation="landscape"/>
+<splash platform="ios" src="package-assets/screen/ios/splash-ios-2208-1242.png" width="2208" height="1242" orientation="landscape"/>
+<splash platform="ios" src="package-assets/screen/ios/splash-ios-2732-2048.png" width="2732" height="2048" orientation="landscape"/>
 
 </platform>
 
