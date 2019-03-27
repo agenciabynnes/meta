@@ -66,7 +66,6 @@
     <preference  name="UIWebViewBounce" value="false"/>
     <preference  name="AndroidExtraFilesystems" value="files,files-external,documents,sdcard,cache,cache-external,assets,root"/>
     <preference name="AndroidPersistentFileLocation" value="Compatibility" />
-    <preference name="SplashShowOnlyFirstTime" value="true"/>
 
     <resource-file src="google-services.json" target="google-services.json" />
     <preference name="android-minSdkVersion" value="17"/>
