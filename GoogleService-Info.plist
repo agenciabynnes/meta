@@ -2,39 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
-	<string>ca-app-pub-3940256099942544/2934735716</string>
-	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
-	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>975722403631-hk8tcnafnuehsl7t8csl9vlf5kv5180k.apps.googleusercontent.com</string>
+	<string>905884017940-qoed69v2pd146o74lpegjup8lnd5mf07.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.975722403631-hk8tcnafnuehsl7t8csl9vlf5kv5180k</string>
+	<string>com.googleusercontent.apps.905884017940-qoed69v2pd146o74lpegjup8lnd5mf07</string>
 	<key>API_KEY</key>
-	<string>AIzaSyAhG5ByupbL61hYWrFzw9QIw5nf3tyWoBc</string>
+	<string>AIzaSyB7ttyJl-GO8mSXJq0_O42UBqPGMp4ccrM</string>
 	<key>GCM_SENDER_ID</key>
-	<string>975722403631</string>
+	<string>905884017940</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.facilitycondo.ios</string>
+	<string>com.meta.ios</string>
 	<key>PROJECT_ID</key>
-	<string>soy-storm-210422</string>
+	<string>meta-235816</string>
 	<key>STORAGE_BUCKET</key>
-	<string>soy-storm-210422.appspot.com</string>
+	<string>meta-235816.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<true></true>
+	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
 	<false></false>
 	<key>IS_APPINVITE_ENABLED</key>
-	<false></false>
+	<true></true>
 	<key>IS_GCM_ENABLED</key>
 	<true></true>
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:975722403631:ios:6d69a422be87cd2c</string>
+	<string>1:905884017940:ios:2d0e26cecfa8ac93</string>
 	<key>DATABASE_URL</key>
-	<string>https://soy-storm-210422.firebaseio.com</string>
+	<string>https://meta-235816.firebaseio.com</string>
 </dict>
 </plist>
